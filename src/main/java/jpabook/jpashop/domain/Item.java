@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="ORDERS") //예약어일수 있음
 public class Item {
 
     @Id @GeneratedValue
